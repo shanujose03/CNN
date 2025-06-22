@@ -9,6 +9,9 @@ This system provides the following functionalities:
 - Recognize faces in real-time using a Streamlit web application.
 - Display the name of the recognized person.
 
+This project uses OpenCV's Haar Cascade Classifier for face detection.
+The classifier file used: haarcascade_frontalface_default.xml
+
 File Descriptions:
 
  **face.py**: Uses OpenCV to capture images from the webcam and save detected face regions.
